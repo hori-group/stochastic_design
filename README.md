@@ -54,7 +54,7 @@ These program codes are contributed by
 - Run "SensitivityFigureOutput.m" to plot the result (Fig. 6).
 
 ### Fig. S.1
-Run "SteadyStateAnalysis_TrscTrsl_Ellipsoid.m" to plot Fig. S1.
+- Open mRNAvsProteinColormapnogrid.fig and run "SteadyStateAnalysis_TrscTrsl_Ellipsoid.m" to plot Fig. S1.
 
 
 # Appendix
