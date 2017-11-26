@@ -45,16 +45,27 @@ These program codes are contributed by
 - For Fig. 5(B), run "SteadyStateAnalysis_TrslDeg_mRNA1.m" first.
 - Then run "trsl_mRNA_AveCV.m" to generate the plot.
 
-- For Fig. 5(C), run "SteadyStateAnalysis_RepressorReporter_Relation.m" first.
-- Then run "RepressorReporter_Relation_FigureOutput.m" to generate the plot.
+- For Fig. 5(C), first, run "SteadyStateAnalysis_FreeDNA_Mean.m", and then, run "SteadyStateAnalysis_FreeDNA_Variance.m" to compute the variance of free DNA.
+- Also, run "SteadyStateAnalysis_Reporter_Var_k9_05.m", "SteadyStateAnalysis_Reporter_Var_k9_1.m" and "SteadyStateAnalysis_Reporter_Var_k9_2.m”.
+- These three files compute the variance of the reporter protein with the translation rate (reporter side) of k9 being 0.5, 1.0 and 2.0, respectively.
+- Finally, run "OutputALLFigures.m" to generate the plot.
 
 
 ### Fig. 6
-- Run "SteadyStateAnalysis_SensitivityAnalysis.m" to compute the sensitivity. 
-- Run "SensitivityFigureOutput.m" to plot the result (Fig. 6).
+- Run "SteadyStateAnalysis_ParamMapSensitivity.m" to compute the sensitivity.
+- Run "SensitivityFigureOutput.m" to plot the result (Fig 6).
+
 
 ### Fig. S.1
 - Open mRNAvsProteinColormapnogrid.fig and run "SteadyStateAnalysis_TrscTrsl_Ellipsoid.m" to plot Fig. S1.
+
+### Fig. S.2
+- Run "ssaRepressorReporter.m" for the SSA simulations.
+- The original data are saved in "ssaRepressorReporter.mat".
+
+### Fig. S.3
+- Run "SteadyStateAnalysis_RepressorReporter_Relation.m" first.
+- Then run "RepressorReporter_Relation_FigureOutput.m" to generate the plot.
 
 
 # Appendix
